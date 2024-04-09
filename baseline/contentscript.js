@@ -219,7 +219,7 @@ function updateGyoyangIsuTable() {
 function checkingGyoyangIsu(jsonData){
     let sugang = {};
     // 필수 교양 체크
-    if (jsonData.aa8128 != 3){
+    if (jsonData.aa8128 != 1){
         sugang["광운인되기"] = jsonData.aa8128;
     }
     if (jsonData.aa3362 != 3){
